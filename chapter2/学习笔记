@@ -1,0 +1,40 @@
+创建列表的集中方式
+>>> [] # empty list
+[]
+>>> list() # same as []
+[]
+>>> [1, 2, 3] # as with tuples, items are comma separated
+[1, 2, 3]
+>>> [x + 5 for x in [2, 3, 4]] # Python is magic
+[7, 8, 9]
+>>> list((1, 3, 5, 7, 9)) # list from a tuple
+[1, 3, 5, 7, 9]
+>>> list('hello') # list from a string
+['h', 'e', 'l', 'l', 'o']
+
+
+字节数组
+>>> bytearray() # empty bytearray object
+bytearray(b'')
+>>> bytearray(10) # zero-filled instance with given length
+bytearray(b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+>>> bytearray(range(5)) # bytearray from iterable of integers
+bytearray(b'\x00\x01\x02\x03\x04')
+>>> name = bytearray(b'Lina') # A - bytearray from bytes
+>>> name.replace(b'L', b'l')
+bytearray(b'lina')
+>>> name.endswith(b'na')
+True
+>>> name.upper()
+bytearray(b'LINA')
+>>> name.count(b'L')
+
+
+创建字典的几种方式
+>>> a = dict(A=1, Z=-1)
+>>> b = {'A': 1, 'Z': -1}
+>>> c = dict(zip(['A', 'Z'], [1, -1]))
+>>> d = dict([('A', 1), ('Z', -1)])
+>>> e = dict({'Z': -1, 'A': 1})
+>>> a == b == c == d == e # are they all the same?
+True # indeed!
