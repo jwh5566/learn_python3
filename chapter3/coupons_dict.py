@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
+   使用dict来保存和使用customers信息
 """
 __title__ = ''
 __author__ = 'JWH5566'
