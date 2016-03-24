@@ -1,0 +1,8 @@
+python变量的范围
+local：最内部的，包含本地变量
+enclosing： 封闭函数的范围，包含非本地的和非全局的变量
+global：包含全局变量
+built-in：包含内建的变量   # such as  print ,  all ,  abs
+
+变量的查找范围:
+local, enclosing, global, built-in (LEGB)
