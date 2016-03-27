@@ -1,0 +1,2 @@
+try - catch - else - finally
+不管是否有异常发生，finally 都会执行，并且在return 前面
