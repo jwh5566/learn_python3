@@ -6,7 +6,6 @@ __title__ = ''
 __author__ = 'JWH5566'
 __mtime__ = '2016/3/25'
 
-
 def func(a=[], b={}):
     print(a)
     print(b)
