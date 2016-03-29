@@ -11,4 +11,5 @@ import requests
 page = requests.get('http://127.0.0.1:8000/img/owl-alcohol.png')
 print(page.content)
 
+
 # img/owl-alcohol.png
