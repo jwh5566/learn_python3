@@ -24,3 +24,5 @@ chapter10：WEB开发
 chapter11：调试
 
 chapter12：总结,一个完整的案例
+
+![image](https://github.com/jwh5566/learn_python3/guiscrape.jpg)
