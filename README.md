@@ -25,4 +25,5 @@ chapter11：调试
 
 chapter12：总结,一个完整的案例
 
-![guiscrape](https://github.com/jwh5566/learn_python3/blob/master/guiscrape.jpg)
+第八章gui案例:
+![image](https://github.com/jwh5566/learn_python3/guiscrape.jpg)
